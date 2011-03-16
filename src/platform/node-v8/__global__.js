@@ -2,7 +2,7 @@ var __context__ = __this__ = global;
 
 var Envjs = Envjs || 
 	require('envjs/platform/core').Envjs;
-	require('local_settings');
+//	require('local_settings'); ?? node doesn't know what's that
 
 Envjs.platform       = "Node";
 Envjs.revision       = process.version;

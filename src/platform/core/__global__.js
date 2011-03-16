@@ -43,7 +43,7 @@ var log = {
 };
 
 try{
-	console = console;
+	console.log; // 'console = console;' doesn't work with node.js
 }catch(e){ 
 	console = require('envjs/console').console;
 }
