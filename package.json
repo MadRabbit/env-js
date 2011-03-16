@@ -1,0 +1,17 @@
+{
+  "name":        "envjs",
+  "version":     "1.3.003",
+  "description": "Env.js npm package",
+  "author":      "John Resig and Co",
+  "repository": {
+    "type": "git",
+    "url":  "http://github.com/thatcher/env-js.git"
+  },
+  "directories": {
+    "lib":      "./envjs",
+    "doc":      "./doc",
+    "examples": "./examples",
+    "plugins":  "./plugins"
+  },
+  "main": "./envjs/node"
+}
